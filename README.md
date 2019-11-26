@@ -1,0 +1,2 @@
+# BoldToText
+Designed to extract bold terms from my class documents and paste them into a brand new doc. Bold terms on class documents will be on weekly quizzes, so this lets me not have to copy and paste dozens of bold terms individually. GUI prompt to find the document and ask the user what they want to name the document that the terms will be pasted to. At the moment this only works on docx files and the GUI could be improved. 
