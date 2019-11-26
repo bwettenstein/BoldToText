@@ -2,8 +2,6 @@ from functions import write_doc, get_text
 import PySimpleGUI as gui
 
 
-# Updates to add: GUI and API to define the words
-
 print(gui.version)
 if __name__ == "__main__":
     doc_file = gui.PopupGetFile(title='Find document',
