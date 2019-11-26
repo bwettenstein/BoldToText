@@ -1,7 +1,7 @@
 import docx
 
 
-# Function to parse through the text in a specified docx file Will add all bold elements to a list that will be returned
+# Function to parse through the text in a specified docx file to add all bold text to a list that will be returned
 def get_text(filename):
     doc = docx.Document(filename)
     bold_text = []
@@ -13,7 +13,6 @@ def get_text(filename):
             elif run.bold and run.underline:
                 bold_text.append(f"{para.text}\n")
     return bold_text
-    # return '\n'.join(bold_text)
 
 
 # Will write a doc with all the bold words returned from the get_text function
