@@ -20,7 +20,6 @@ if __name__ == "__main__":
                                   custom_text='No Path Chosen',
                                   button_type=gui.Ok())
 
+
     text_list = get_text(doc_file)
     write_doc(text_list, file_name)
-
-    useless_var = 2
